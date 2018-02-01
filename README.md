@@ -1,6 +1,8 @@
 # To-Do List
 Celeste Robinson
 
-##Objective
+## Objective
 
 This was one of the first projects I did after learning the basics of JavaScript and jQuery. 
+
+![to-do list](screenshots/items-added.png)
