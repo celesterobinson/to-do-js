@@ -3,7 +3,7 @@ Celeste Robinson
 
 ## Objective
 
-This was one of the first projects I did after learning the basics of JavaScript and jQuery. The goal was to create a program that allows the user to add tasks to a todo list. They can then cross them off when they have finished. The user can also add multiple things to the todo list if they are separated by a comma.
+This was one of the first projects I did after learning the basics of JavaScript and jQuery. I use both in this project just to practice vanilla JS. The goal was to create a program that allows the user to add tasks to a todo list. They can then cross them off when they have finished. The user can also add multiple things to the todo list if they are separated by a comma. 
 
 ### Web View
 ![to-do list](screenshots/items-added.png)
@@ -26,7 +26,7 @@ function addTask(newTask) {
 }
 ```
 
-There was one thing at this time that I was super excited to learn about. Toggling classes. This opened up a whole new world of CSS capabilities for me. In this code, I toggle a class called 'item' on and off. This allows me to use a CSS selector and give it properties with values. These function is being passed through my ```addTask``` function, which is then being called in another function that fires on enter. ```onClick``` of a list item, the ```strikethrough``` function fires, toggling whatever I have set in the CSS. In this case, I have a ```text-decoration: underline``` set. This adds an easy way to cross off items on the to-do list.
+There was one thing at this time that I was super excited to learn about. Toggling classes. This opened up a whole new world of CSS capabilities for me. In this code, I toggle a class called 'item' on and off. This allows me to use a CSS selector and give it properties with values. These function is being passed through my ```addTask``` function, which is then being called in another function that fires on enter. ```onClick``` of a list item, the ```strikethrough``` function fires, toggling whatever I have set in the CSS. In this case, I have a ```text-decoration: line-through``` set. This adds an easy way to cross off items on the to-do list.
 
 ```
 function strikethrough(event) {
